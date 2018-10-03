@@ -69,7 +69,7 @@ Although the built-in cue editor in Max currently only allows you to add one com
     }
 ,
     "3" : {
-      "player-1" : "stop"
+      "player-1" : "stop",
       "player-2" : "stop 5000"
     }
   }
