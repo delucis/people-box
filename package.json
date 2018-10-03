@@ -1,6 +1,6 @@
 {
   "name": "people-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sample playback for Clara Iannotta’s The people here go mad. They blame the wind.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
