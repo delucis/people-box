@@ -1,0 +1,68 @@
+{
+	"name" : "people-box",
+	"author" : "Chris Swithinbank",
+	"description" : "Sample playback for Clara Iannotta’s The people here go mad. They blame the wind.",
+	"website" : "https://github.com/delucis/people-box",
+	"version" : "0.0.1",
+	"mastervol" : "0.",
+	"cues" : 	{
+		"19" : 		{
+			"player-1" : "play pb.19.wav"
+		}
+,
+		"55" : 		{
+			"player-2" : "play pb.55.wav"
+		}
+,
+		"90" : 		{
+			"player-3" : "play pb.90.wav"
+		}
+,
+		"93" : 		{
+			"player-1" : "play pb.93.wav"
+		}
+,
+		"101" : 		{
+			"player-1" : "play pb.101.wav"
+		}
+,
+		"122" : 		{
+			"player-2" : "play pb.122.wav"
+		}
+,
+		"127" : 		{
+			"player-3" : "play pb.127.wav"
+		}
+,
+		"163" : 		{
+			"player-1" : "play pb.163.wav"
+		}
+,
+		"209" : 		{
+			"player-2" : "play pb.209.wav"
+		}
+,
+		"220" : 		{
+			"player-3" : "play pb.220.wav"
+		}
+,
+		"260" : 		{
+			"player-1" : "play pb.260.wav"
+		}
+,
+		"277" : 		{
+			"player-2" : "play pb.277.wav"
+		}
+
+	}
+,
+	"state" : 	{
+		"pedal-config" : 		{
+			"trigger-value" : 0.0,
+			"midi-port" : 11.0,
+			"midi-device" : "to Max 1"
+		}
+
+	}
+
+}

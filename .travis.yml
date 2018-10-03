@@ -1,0 +1,22 @@
+os: osx
+language: node_js
+node_js:
+- '6'
+before_install:
+- brew update && brew install git-lfs
+- git lfs install
+install:
+- npm install
+before_script:
+- git lfs pull
+script:
+- npm run build
+deploy:
+  provider: releases
+  api_key:
+    secure: PwnqnC7TMvi/V9b8kb4nPuNRQQqIl+ZSUMLPLYozsCMyalGkMN50ikjWYX19KXDl2XOtO2KF5Nq4tzqghjRRCBnUjZe0blPdYd57sVq1ewucHatGUZPZtAcJOVLwXvy5BvGQ4KkiO2KWakMxlYDqN4KiY9+Xf5zN8VMu6DtJlJTDngkT45fgiqhPQ+chy7Rq9prTW9RMXjKVVO4z9aq5eOQ98Okfu5VOOWw7nEydJwr9V8IR7oBcTH1dn6g4WqeTAHdo8LwzmsR28xjM16PDGul7fOy9FsP/WnYa5ms4VFHXDuvZARuMK/DD1TY2pjnAFXQ7j0jxAIMQ33SymELcxqDe5JYPfZsCxyqXvAL/V2sUJsHMbKOtrRaf0rI1mYy89WPRdayQqU3SfcngeD+Kq6qyprovvJon934DadLVcRxYSTEB1vuxeHg61lBKYsOhsgf44dgBzJAKICvHp8zaFK2D0g2qhirIM0WtxJjA75Us0vvsM1O3cZDsJA9E8Lz26WCUrZv06nNHtUFPlS0XZHmigkoj5QeqX3WhGrKmrb5wxuMYmDtM1UWMlJG3I6zwuG/dzwWsirGQKaH9d5//SN0ltepsbxgKC7yj7iquTMeEVwusyFGdMMCr6BJSvdEXZLF2S6gn9IwWWyzlrYRqbAtc8o8ZHR9m/Jf7hL2SS5w=
+  file: people-box.zip
+  skip_cleanup: true
+  on:
+    repo: delucis/people-box
+    tags: true

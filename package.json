@@ -1,0 +1,23 @@
+{
+  "name": "people-box",
+  "version": "0.0.1",
+  "description": "Sample playback for Clara Iannotta’s The people here go mad. They blame the wind.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run copy && npm run zip && npm run clean",
+    "copy": "cpy '**/*' '!people-box/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!people-box.zip' 'people-box/' --parents --nodir",
+    "zip": "bestzip people-box.zip people-box/",
+    "clean": "rimraf people-box"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/people-box.git"
+  },
+  "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
+  "homepage": "https://github.com/delucis/people-box#readme",
+  "devDependencies": {
+    "bestzip": "^1.1.3",
+    "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
+    "rimraf": "^2.5.4"
+  }
+}
