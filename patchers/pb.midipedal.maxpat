@@ -1417,8 +1417,8 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "jb-pedal-hit-value",
-											"parameter_shortname" : "jb-pedal-hit-value",
+											"parameter_longname" : "pb-pedal-hit-value",
+											"parameter_shortname" : "pb-pedal-hit-value",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "127", "0" ],
 											"parameter_initial" : [ 0.0 ],
@@ -1428,7 +1428,7 @@
 									}
 ,
 									"spacing_x" : 5.0,
-									"varname" : "jb-pedal-hit-value"
+									"varname" : "pb-pedal-hit-value"
 								}
 
 							}
@@ -2384,7 +2384,7 @@
  ],
 		"parameters" : 		{
 			"obj-57::obj-29" : [ "live.button", "live.button", 0 ],
-			"obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
+			"obj-57::obj-41" : [ "pb-pedal-hit-value", "pb-pedal-hit-value", 0 ],
 			"obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-57::obj-4" : [ "live.numbox", "live.numbox", 0 ]
 		}

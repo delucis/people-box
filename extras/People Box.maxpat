@@ -407,7 +407,7 @@
 			"obj-3::obj-10" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-11::obj-10" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-9::obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
+			"obj-9::obj-57::obj-41" : [ "pb-pedal-hit-value", "pb-pedal-hit-value", 0 ],
 			"obj-2::obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-9::obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-9::obj-57::obj-29" : [ "live.button", "live.button", 0 ],
