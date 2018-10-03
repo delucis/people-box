@@ -1,7 +1,9 @@
 os: osx
 language: node_js
-node_js:
-- '6'
+node_js: stable
+cache:
+  directories:
+    - node_modules
 before_install:
 - brew update && brew install git-lfs
 - git lfs install
