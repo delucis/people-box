@@ -6,16 +6,22 @@
 	"version" : "0.0.1",
 	"mastervol" : "0.",
 	"cues" : 	{
-		"19" : 		{
-			"player-1" : "play pb.19.wav"
+		"1" : 		{
+			"player-1" : "play pb.1_stop-at-21.wav"
 		}
 ,
-		"55" : 		{
-			"player-2" : "play pb.55.wav"
+		"2" : 		{
+			"player-2" : "play pb.2.wav"
 		}
 ,
-		"90" : 		{
-			"player-3" : "play pb.90.wav"
+		"11" : 		{
+			"player-3" : "play pb.11_stop-at-21.wav"
+		}
+,
+		"21" :
+				{
+			"player-1" : "stop",
+			"player-3" : "stop"
 		}
 	}
 ,
