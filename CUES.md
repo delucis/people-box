@@ -52,3 +52,26 @@ You can send the following messages:
     }
   }
   ```
+
+### Multiple messages per cue
+
+Although the built-in cue editor in Max currently only allows you to add one command per cue, it is possible to have a cue trigger multiple messages. To do so you will need to manually edit the `patchers/people-data.json` file and add additional players to the cue, for example:
+
+```json
+{
+  "cues" : {
+    "1" : {
+      "player-1" : "play pb.1.wav"
+    }
+,
+    "2" : {
+      "player-2" : "play pb.2.wav -3"
+    }
+,
+    "3" : {
+      "player-1" : "stop"
+      "player-2" : "stop 5000"
+    }
+  }
+}
+``` 
