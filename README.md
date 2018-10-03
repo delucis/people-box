@@ -12,15 +12,15 @@ To install the `people-box` package:
 1. Download the [__latest version__](https://github.com/delucis/people-box/releases/latest) (click on `people-box.zip`).
 
 2. Unzip it to your packages directory:    
-`~/Documents/Max/Packages` for Max 6 or `~/Documents/Max 7/Packages` for Max 7.
+`~/Documents/Max/Packages` for Max 6, `~/Documents/Max 7/Packages` for Max 7, or `~/Documents/Max 8/Packages` for Max 8.
 
 
 ## Performance Set-up
 
-A performance of _The people here go mad. They blame the wind._ requires the following technical set-up:
+A performance of _The people here go mad. They blame the wind._ either requires a custom built [music-box machine](https://vimeo.com/89172355) or the following technical set-up:
 
 - a computer running the `people-box` Max package
-- a stereo pair of loudspeakers in front of or either side of the quartet for sound output
+- a stereo pair of loudspeakers in front of or either side of the trio for sound output
 - (optionally) a MIDI pedal and interface for cue triggering
 
 
