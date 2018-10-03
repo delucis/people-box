@@ -17,43 +17,6 @@
 		"90" : 		{
 			"player-3" : "play pb.90.wav"
 		}
-,
-		"93" : 		{
-			"player-1" : "play pb.93.wav"
-		}
-,
-		"101" : 		{
-			"player-1" : "play pb.101.wav"
-		}
-,
-		"122" : 		{
-			"player-2" : "play pb.122.wav"
-		}
-,
-		"127" : 		{
-			"player-3" : "play pb.127.wav"
-		}
-,
-		"163" : 		{
-			"player-1" : "play pb.163.wav"
-		}
-,
-		"209" : 		{
-			"player-2" : "play pb.209.wav"
-		}
-,
-		"220" : 		{
-			"player-3" : "play pb.220.wav"
-		}
-,
-		"260" : 		{
-			"player-1" : "play pb.260.wav"
-		}
-,
-		"277" : 		{
-			"player-2" : "play pb.277.wav"
-		}
-
 	}
 ,
 	"state" : 	{
