@@ -18,11 +18,115 @@
 			"player-3" : "play pb.11_stop-at-21.wav"
 		}
 ,
-		"21" :
-				{
-			"player-1" : "stop",
-			"player-3" : "stop"
+		"21" : 		{
+			"player-3" : "stop 300.00",
+			"player-1" : "stop 100.00"
 		}
+,
+		"23" : 		{
+			"player-1" : "play pb.23_stop-at-52.wav 0.0000"
+		}
+,
+		"52" : 		{
+			"player-1" : "stop 300.00"
+		}
+,
+		"59" : 		{
+			"player-2" : "play pb.59_stop-at-65.wav 0.0000"
+		}
+,
+		"65" : 		{
+			"player-2" : "stop 300.00"
+		}
+,
+		"66" : 		{
+			"player-3" : "play pb.66_stop-at-72.wav 0.0000"
+		}
+,
+		"72" : 		{
+			"player-3" : "stop 300.00"
+		}
+,
+		"73" : 		{
+			"player-1" : "play pb.73_stop-at-85.wav 0.0000"
+		}
+,
+		"85" : 		{
+			"player-1" : "stop 300.00"
+		}
+,
+		"86" : 		{
+			"player-2" : "play pb.86.wav 0.0000"
+		}
+,
+		"99" : 		{
+			"player-3" : "play pb.99.wav 0.0000"
+		}
+,
+		"100" : 		{
+			"player-1" : "play pb.100.wav 0.0000"
+		}
+,
+		"101" : 		{
+			"player-2" : "play pb.101.wav 0.0000"
+		}
+,
+		"102" : 		{
+			"player-3" : "play pb.102.wav 0.0000"
+		}
+,
+		"104" : 		{
+			"player-1" : "play pb.104.wav 0.0000"
+		}
+,
+		"122" : 		{
+			"player-2" : "play pb.122.wav 0.0000"
+		}
+,
+		"151" : 		{
+			"player-3" : "play pb.151.wav 0.0000"
+		}
+,
+		"152" : 		{
+			"player-1" : "play pb.152.wav 0.0000"
+		}
+,
+		"165" : 		{
+			"player-2" : "play pb.165.wav 0.0000"
+		}
+,
+		"197" : 		{
+			"player-3" : "play pb.197_stop-at-208.wav 0.0000"
+		}
+,
+		"208" : 		{
+			"player-3" : "stop 300.00"
+		}
+,
+		"209" : 		{
+			"player-1" : "play pb.209_stop-at-215.wav 0.0000"
+		}
+,
+		"215" : 		{
+			"player-1" : "stop 700.00"
+		}
+,
+		"211" : 		{
+			"player-2" : "play pb.211.wav 0.0000"
+		}
+,
+		"212" : 		{
+			"player-3" : "play pb.212.wav 0.0000"
+		}
+,
+		"213" : 		{
+			"player-2" : "play pb.213.wav 0.0000"
+		}
+,
+		"214" : 		{
+			"player-3" : "play pb.214.wav 0.0000"
+		}
+
 	}
 ,
 	"state" : 	{
