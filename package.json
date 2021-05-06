@@ -16,7 +16,7 @@
   "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
   "homepage": "https://github.com/delucis/people-box#readme",
   "devDependencies": {
-    "bestzip": "^2.1.1",
+    "bestzip": "^2.1.7",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
     "rimraf": "^2.6.2"
   }
